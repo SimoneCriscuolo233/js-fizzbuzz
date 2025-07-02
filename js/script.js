@@ -9,6 +9,11 @@ for (let i = 1; i <= 100; i++) {
     console.log(`${i} Fizz`);
   }
   // Se il numero è divisibile solo per 5, stampa "Buzz"
-
+  else if (i % 5 === 0) {
+    console.log(`${i} Buzz`);
+  }
   // Altrimenti, stampa il numero stesso
+  else {
+    console.log(i);
+  }
 }
