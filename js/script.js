@@ -5,7 +5,9 @@ for (let i = 1; i <= 100; i++) {
     console.log(`${i} FizzBuzz`);
   }
   // Se il numero è divisibile solo per 3, stampa "Fizz"
-
+  else if (i % 3 === 0) {
+    console.log(`${i} Fizz`);
+  }
   // Se il numero è divisibile solo per 5, stampa "Buzz"
 
   // Altrimenti, stampa il numero stesso
